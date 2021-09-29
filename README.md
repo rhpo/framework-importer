@@ -41,3 +41,8 @@ else
     return console.error('The CSS File has been imported!');
 }
 ```
+
+- View All Imported CSS Code:
+```js
+console.log(importer.imported.css);
+```
